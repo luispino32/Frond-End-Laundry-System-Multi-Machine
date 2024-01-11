@@ -1,0 +1,33 @@
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.cerrarModal{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+
+    & > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: small;
+        cursor: pointer;
+
+        & > svg > path{
+            stroke: white;
+        }
+
+        &:hover{
+            color: rgb(9, 9, 129);
+            & > svg > path{
+                stroke: rgb(9, 9, 129);
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+
+.mainDiv{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    height: 4vh;
+    margin: 0;
+    padding: 0.5% 1%;
+    padding-bottom: 1.4%;
+    border-bottom: 1px rgb(216, 216, 216) solid;
+}
+
+.contentDiv{
+    cursor: pointer;
+
+    & > div{
+        color: grey;
+    }
+
+    &:hover > div{
+        color: blue;
+    }
+}
+
+.textDiv{
+    font-size:x-small;
+    color: gray;
+}
+
+.iconDiv{
+    height: auto;
+}

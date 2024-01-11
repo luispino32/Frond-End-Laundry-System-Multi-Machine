@@ -1,0 +1,75 @@
+.styleHeader{
+    height: 35px;
+}
+
+.navShow{
+    min-width: 170px;
+
+    & > header{
+        height: 35px;
+    }
+}
+
+.navHidden{
+    min-width: 40px;
+
+    & > header{
+        height: 35px;
+    }
+}
+
+.ArrowShowNavbar{
+    transform: rotate(0deg);
+    transition: 0.5s;
+}
+
+.ArrowHiddenNavbar{
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+.routesShowNavBar{
+    margin-left: 170px;
+}
+
+.routesHiddenNavBar{
+    margin-left: 40px;
+}
+
+.routesDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 100vh;
+    background-color: rgb(238, 236, 236);
+
+    
+}
+
+.loginDiv{
+    height: 100vh;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Cambia el color de la pista */
+  ::-webkit-scrollbar-track {
+    background: #cfc4ff;
+  }
+  
+  /* Cambia el color del "pulgar" o la parte desplazable de la barra */
+  ::-webkit-scrollbar-thumb {
+    background: #5851a8;
+    border-radius: 10px;
+  }
+  
+  /* Cambia el color del "pulgar" cuando se desplaza */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #856ce0;
+  }

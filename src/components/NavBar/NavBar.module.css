@@ -1,0 +1,58 @@
+.navStyle{
+    height: 100vh;
+    position: fixed;
+    background-color: #8ab3cf;
+
+    & li{
+        display: flex;
+        color: #050f32;
+
+        &:hover{
+            background-color: #bdd1de;
+        }
+    }
+}
+
+.headerStyle{
+    display: flex;
+    text-align: left;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-between;
+
+    & > a{
+        color: #050f32;
+        padding-left: 8%;
+        padding-right: 8%;
+        text-decoration: none;
+    }
+
+    & > span{
+        padding-top: 2%;
+        padding-left: 10px;
+        padding-right: 8%;
+        cursor: pointer;
+    }
+}
+
+.ulStyle{
+    padding: 0;
+    margin-top: 5%;
+    list-style: none;
+
+    & a{
+        width: 100%;
+        color: black;
+        text-align: left;
+        text-decoration: none;
+    }
+    
+}
+
+.dropClickStyle{
+    background-color: #4180ab;
+}
+
+.dropClickStyleBody{
+    background-color: #2fa024;
+}

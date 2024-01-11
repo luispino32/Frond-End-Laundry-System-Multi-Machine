@@ -1,0 +1,8 @@
+.liItem{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+    & span{
+        padding: 0% 10px;
+    }
+}

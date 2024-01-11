@@ -1,0 +1,22 @@
+.table{
+    width: 100%;
+    border-collapse: collapse;
+
+    & thead{
+        & > tr > td{
+            font-weight: bold;
+            font-size: small;
+            text-align: left;
+        }
+    }
+
+    & tbody{
+        & > tr > td{
+            font-size:small;
+            text-align: left;
+            padding-top: 0.5%;
+            padding-bottom: 0.5%;
+            border-top: 1px rgb(197, 195, 195) solid;
+        }
+    }
+}

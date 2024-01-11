@@ -1,0 +1,43 @@
+
+.dropUl{
+    padding-left: 0;
+    list-style: none;
+    width: auto;
+
+    & a{
+        text-decoration: none; 
+    }
+}
+
+.liHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+    & span {
+        padding: 3% 10px;
+    }
+}
+
+.liBody{
+    padding-left: 8%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+    & span{
+        padding: 0% 10px;
+    }
+}
+
+.spanIconOpen{
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+.spanIconClose{
+    transform: rotate(0deg);
+    transition: 0.5s;
+}

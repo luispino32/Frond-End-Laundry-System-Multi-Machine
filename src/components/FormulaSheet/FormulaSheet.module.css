@@ -1,0 +1,78 @@
+
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.tableFormula{
+    padding: 2% 1.5%;
+
+    & > table > tbody > tr{
+        cursor: pointer;
+        
+        & > td{
+            color: rgb(112, 111, 111);
+            padding-top: 1%;
+            padding-bottom: 1%;
+        }
+
+        &:hover{
+            background-color: rgb(248, 247, 247);
+        }
+    }
+}
+
+.tableDetail{
+    margin-top: 0.6%;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.arrowDiv{
+    cursor: pointer;
+    padding-top: 1%;
+
+    &:hover{
+        color: blue;
+    }
+}
+
+.cerrarModal{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+
+    & > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: small;
+        cursor: pointer;
+
+        & > svg > path{
+            stroke: white;
+        }
+
+        &:hover{
+            color: rgb(9, 9, 129);
+            & > svg > path{
+                stroke: rgb(9, 9, 129);
+            }
+        }
+    }
+}
+
+.inputForm{
+    background-color: inherit;
+    border: none;
+}
+
+.inputFormEdit{
+    padding: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
